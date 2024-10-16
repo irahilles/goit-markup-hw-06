@@ -693,16 +693,12 @@ color: #2e2f42;
     border-color: #4D5AE5; 
 }
 
-.input-form .modal-icon:focus {
+.input-form:focus .modal-icon {
     fill: #4D5AE5;
 }
 
 .textarea-comment-wrap {
     margin-bottom: 16px;
-}
-
-.textarea-comment {
-    padding: 8px, 16px;
 }
 
 .form-checkbox {
@@ -728,10 +724,18 @@ color: #2e2f42;
     fill: transparent;
     border-radius: 2px; 
 }
+
 .tick:checked .checkbox-icon {
     fill: #F4F4FD;
+    background-color: #404bbf;
+    border: none;
 }
+
 .modal-link {
    color: #4d5ae5;
    text-decoration: underline;
+}
+
+.textarea-comment {
+    padding: 8px, 16px;
 }
