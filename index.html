@@ -38,7 +38,7 @@
     <section class="hero">
         <div class="container">
         <h1 class="title-main">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="button" data-modal-open type="button">Order Service</button>
         </div>
     </section>
 <!-- ---------------------SECTION FEATURES----------------------- -->
@@ -243,9 +243,9 @@
 </div>
    </footer>
    <!-- ---------------------------------------MODAL----------------------------------------------- -->
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button class="btn-close-modal" type="button"><svg class="modal-icon-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg></button>
+            <button class="btn-close-modal" type="button" data-modal-close><svg class="modal-icon-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="form-main">
                     <div class="form-item"> 
@@ -287,5 +287,6 @@
             </form>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
