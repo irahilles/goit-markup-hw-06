@@ -20,44 +20,6 @@
     padding-bottom: 120px;
 }
 
-/* -------SECTION FEATURES-------- */
-.description-list {
- display: flex;
-gap: 24px;
-}
-.description-list-item {
-    width: calc((100% - 72px) / 4);
-}
-.third-title {
-    margin-bottom: 8px;
-}
-.icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
-}
-
-.secondary-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
-}
-.paragraf {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-
 h3 {
 font-weight: 500;
 font-size: 20px;
@@ -128,9 +90,6 @@ gap: 24px;
 width: 40px;
 height: 40px;
 }
-
-
-
 
 .secondary-title-active {
     margin-bottom: 72px;
