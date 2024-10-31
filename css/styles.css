@@ -243,7 +243,7 @@ header {
 
     @media screen and (min-width: 768px){
     .mobile-menu {
-display: none;
+        display: none;
     }
 }
 
@@ -279,9 +279,50 @@ height: 100%;
     fill: black;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mobile-nav-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+       }
+       .mobile-menu-list {
+           display: flex;
+           flex-direction: column;
+           gap: 40px;
+       }
+       .studio {
+           color: #404bbf;
+       }
+       .mobile-contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   margin-bottom: 48px;
+       }
+       .mobile-address-list {
+           font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #434455;
+   font-style: normal;
+       }
+   .tel {
+       color: #4d5ae5;
+   }
 .mobile-menu-nav {
     margin-bottom: auto;
 }
+.icons-mobile-menu {
+    display: flex;
+    gap: 40px;
+}
+.mobile-icon-item {
+    width: 40px;
+    height: 40px;
+    }
 
 /* ---------------------HERO------------------- */
 .hero {
@@ -291,7 +332,7 @@ height: 100%;
         to bottom, 
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)
-        ), url("../images/people-office.jpg");
+        ), url("../images/hero-1x-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
