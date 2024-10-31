@@ -761,4 +761,7 @@ margin: 0 auto;
    .subscribtion-container {
     margin-left: auto;
    }
+   .logo-text-footer {
+    text-align: left;
+}
 }
