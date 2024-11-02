@@ -467,7 +467,10 @@ button:focus {
                    }
                    .description-list-item {
                     width: calc((100% - 24px) / 2);
-                }     
+                }   
+                .third-title {
+                    text-align: left;
+                }  
        }
 
        @media screen and (min-width: 1158px) {
@@ -698,6 +701,7 @@ display: flex;
 align-items: baseline;
 flex-wrap: wrap;
 gap: 72px;
+justify-content: center;
 }
 
 .icon-item {
@@ -800,11 +804,16 @@ margin: 0 auto;
         row-gap: 72px;
         column-gap: 24px;
     }
+    .logo-text-footer {
+        text-align: left;
+    }
 }
 @media screen and (min-width: 1158px) {
     .container-footer {
         flex-wrap: nowrap;
         padding: 0 15px;
+        align-items: baseline;
+        gap: unset;
     }
     .logo-text-footer {
         margin-right: 120px;
@@ -817,6 +826,9 @@ margin: 0 auto;
    }
    .logo-text-footer {
     text-align: left;
+}
+.text-icons {
+    margin-right: 80px;
 }
 }
 
